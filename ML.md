@@ -18,12 +18,20 @@ _Unsupervised_ learning is further divided into **clustering** (finding groups o
 
 **Classification algorithms**
 
-A classification problem is a supervised learning problem that asks for a choice between two or more classes, usually providing probabilities for each class. Leaving out neural networks and deep learning, which require a much higher level of computing resources, the most common algorithms are Naive Bayes, Decision Tree, Logistic Regression, K-Nearest Neighbors, and Support Vector Machine (SVM). You can also use ensemble methods (combinations of models), such as Random Forest, other Bagging methods, and boosting methods such as AdaBoost and XGBoost.
+A classification problem is a _supervised learning problem_ that asks for a choice between two or more classes, usually providing probabilities for each class. Leaving out neural networks and deep learning, which require a much higher level of computing resources, the most common algorithms are Naive Bayes, Decision Tree, Logistic Regression, K-Nearest Neighbors, and Support Vector Machine (SVM). You can also use ensemble methods (combinations of models), such as Random Forest, other Bagging methods, and boosting methods such as AdaBoost and XGBoost.
 
 **Regression algorithms**
 
-A regression problem is a supervised learning problem that asks the model to predict a number. The simplest and fastest algorithm is linear (least squares) regression, but you shouldn’t stop there, because it often gives you a mediocre result. Other common machine learning regression algorithms (short of neural networks) include Naive Bayes, Decision Tree, K-Nearest Neighbors, LVQ (Learning Vector Quantization), LARS Lasso, Elastic Net, Random Forest, AdaBoost, and XGBoost. You’ll notice that there is some overlap between machine learning algorithms for regression and classification.
+A regression problem is a _supervised learning problem_ that asks the model to predict a number. The simplest and fastest algorithm is linear (least squares) regression, but you shouldn’t stop there, because it often gives you a mediocre result. Other common machine learning regression algorithms (short of neural networks) include Naive Bayes, Decision Tree, K-Nearest Neighbors, LVQ (Learning Vector Quantization), LARS Lasso, Elastic Net, Random Forest, AdaBoost, and XGBoost. You’ll notice that there is some overlap between machine learning algorithms for regression and classification.
 
 **Clustering algorithms**
 
-A clustering problem is an unsupervised learning problem that asks the model to find groups of similar data points. The most popular algorithm is K-Means Clustering; others include Mean-Shift Clustering, DBSCAN (Density-Based Spatial Clustering of Applications with Noise), GMM (Gaussian Mixture Models), and HAC (Hierarchical Agglomerative Clustering).
+A clustering problem is an _unsupervised learning problem_ that asks the model to find groups of similar data points. The most popular algorithm is K-Means Clustering; others include Mean-Shift Clustering, DBSCAN (Density-Based Spatial Clustering of Applications with Noise), GMM (Gaussian Mixture Models), and HAC (Hierarchical Agglomerative Clustering).
+
+**Dimensionality reduction algorithms**
+
+Dimensionality reduction is an _unsupervised learning problem_ that asks the model to drop or combine variables that have little or no effect on the result. This is often used in combination with classification or regression. Dimensionality reduction algorithms include removing variables with many missing values, removing variables with low variance, Decision Tree, Random Forest, removing or combining variables with high correlation, Backward Feature Elimination, Forward Feature Selection, Factor Analysis, and PCA (Principal Component Analysis).
+
+**Optimization methods**
+
+Training and evaluation turn supervised learning algorithms into models by optimizing their parameter weights to find the set of values that best matches the ground truth of your data.
