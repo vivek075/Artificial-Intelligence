@@ -26,3 +26,9 @@
 
    
 7. Fine Tuning
+
+
+8. Few Short Prompting
+
+
+9. RAG
