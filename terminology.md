@@ -19,4 +19,9 @@
 
    Same word but different meaning.
 
-5. 
+5. Self Supervised Learning
+
+
+6. Transformer
+
+   
