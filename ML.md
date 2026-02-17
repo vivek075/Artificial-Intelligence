@@ -14,6 +14,8 @@ _Supervised_ machine learning problems are further divided into **classification
 
 _Unsupervised_ learning is further divided into **clustering** (finding groups of similar objects, such as running shoes, walking shoes, and dress shoes), **association** (finding common sequences of objects, such as coffee and cream), and dimensionality reduction (projection, feature selection, and feature extraction).
 
+_Reinforcement learning_ (RL) is a machine learning technique where an autonomous "agent" learns to make optimal, sequential decisions by interacting with an environment, using a trial-and-error approach. Instead of relying on labeled data, the agent receives feedback through rewards or penalties, aiming to maximize cumulative rewards over time. 
+
 ---
 
 **Classification algorithms**
@@ -35,3 +37,10 @@ Dimensionality reduction is an _unsupervised learning problem_ that asks the mod
 **Optimization methods**
 
 Training and evaluation turn supervised learning algorithms into models by optimizing their parameter weights to find the set of values that best matches the ground truth of your data.
+
+
+---
+
+Machine Learning is a subset of AI.
+
+Deep Learning is subset of Machine Learning, often thought as scalable ML.
